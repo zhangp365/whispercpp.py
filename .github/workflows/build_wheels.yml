@@ -1,6 +1,6 @@
 name: build_wheels
 run-name: ${{ github.actor }} is building wheels
-on: [push]
+on: [workflow_dispatch]
 jobs:
   build_wheels:
     runs-on: ${{ matrix.os }}
